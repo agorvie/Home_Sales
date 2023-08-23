@@ -31,5 +31,5 @@ Uncache Table: The home_sales temporary table is uncached using the command spar
 
 Verification: The code checks if the home_sales table is no longer cached and provides a verification message.
 
-Conclusion
+## Conclusion
 In this Home Sales Challenge Project, I successfully leveraged SparkSQL to analyze a dataset of home sales data and derive key insights. By applying various SQL queries to the dataset, I answered specific questions related to average prices for different home characteristics, such as the number of bedrooms, bathrooms, floors, and size. I also investigated the relationship between "view" ratings and home prices for properties costing $350,000 or more. Additionally, I explored the benefits of caching by measuring query runtimes before and after caching the data, showcasing the performance improvements caching can offer. Moreover, I demonstrated the effectiveness of data partitioning and Parquet format for optimized query performance. Throughout the project, I effectively utilized Spark's capabilities for efficient data manipulation and analysis. This experience not only honed my SparkSQL skills but also highlighted the significance of optimizing data processing techniques to gain valuable insights from large datasets efficiently.
